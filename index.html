@@ -1,84 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <Meta http-equiv="X-UA-Compatiple" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Complete Responsive personal portfolio wedsite HTML CSS Javascript | codehal</title>
-
-        <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Amin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-      
-    <!-- skills section design -->
-     <section class="skills" id="skills">
-        <h2 class="heading">My <span>skills</span></h2>
 
-        <div class="skills-row">
-            <div class="skills-column">
-                <h3 class="title">coding skills</h3>
-                 
-            <div class="skills-box">
-                <div class="skills-content">
-                    <div class="progress">
-                        <h3>HTML <span>90%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Mohamed<span>.</span></a>
 
-                     <div class="progress">
-                        <h3>CSS <span>80%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                     <div class="progress">
-                        <h3>Javascript <span>65%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Mohamed Amin</span></h1>
+            <h2>Front-End Developer in Training</h2>
+            <p>
+                I'm an Information Systems student passionate about
+                web development and creating modern, responsive websites.
+            </p>
 
-                     <div class="progress">
-                        <h3>python <span>75%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
-                </div>
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
             </div>
-            </div>
-
-
-             <div class="skills-column">
-                <h3 class="title">professional skills</h3>
-                 
-            <div class="skills-box">
-                <div class="skills-content">
-                    <div class="progress">
-                        <h3>Web Design <span>95%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
-
-                     <div class="progress">
-                        <h3>Web Development <span>67%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
-
-                     <div class="progress">
-                        <h3>Graphic Desing <span>85%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
-
-                     <div class="progress">
-                        <h3>SEC Marketing <span>75%</span></h3>
-                        <div class="ber"><span></span></div>
-                    </div>
         </div>
-        
-     </section>
 
+        <div class="hero-image">
+            <img src="profile.jpg.jpeg" alt="Mohamed Amin">
+        </div>
+    </section>
 
+    <section class="about section" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p>
+            I'm an Information Systems student currently training in
+            Front-End Web Development. I am learning HTML and CSS
+            and improving my skills by building practical projects.
+            My goal is to become a professional web developer.
+        </p>
+    </section>
 
+    <section class="skills section" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
 
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML5</h3>
+                <p>Building structured web pages.</p>
+            </div>
 
-    
+            <div class="skill-card">
+                <h3>CSS3</h3>
+                <p>Styling and responsive web design.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Currently developing my programming skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-icon">01</div>
+                <h3>Personal Portfolio</h3>
+                <p>A personal website showcasing my skills and work.</p>
+                <span class="tag">HTML & CSS</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">02</div>
+                <h3>Fruit Gallery</h3>
+                <p>A simple website displaying different types of fruit.</p>
+                <span class="tag">HTML & CSS</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">03</div>
+                <h3>Blood Donation App</h3>
+                <p>A project idea to help connect blood donors with people in need.</p>
+                <span class="tag">Project Idea</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <p>Have a project idea or an opportunity? Feel free to contact me.</p>
+
+        <a href="mailto:your-email@gmail.com" class="btn">
+            Send Me an Email
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Mohamed Amin. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
